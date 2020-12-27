@@ -9,7 +9,7 @@
 $hostname='localhost';
 $database='reportes';
 $username='root';
-$password='';
+$password='canelito36';
 $conexion= new mysqli($hostname, $username, $password,$database);
 if($conexion->connect_errno){
     echo "No se pudo realizar la conexión";
